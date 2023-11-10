@@ -1,5 +1,5 @@
-<nav
-    class="fixed top-0 left-0 flex h-[5rem] w-full lg:px-16 md:px-8 px-4 justify-between nav-bar transition bg-[#f4f4f4] z-10">
+<nav id="nav-main"
+     class="fixed top-0 left-0 flex h-[5rem] w-full lg:px-16 md:px-8 px-4 justify-between nav-bar transition bg-[#f4f4f4] z-10">
     <div class="flex items-center w-[50%] lg:w-[32%] justify-between">
         <div class="h-[30%]">
             <img src="{{ asset('images/logo_png_zanquo.png') }}" alt="Logo" class="h-[100%] cursor-pointer"
@@ -7,15 +7,15 @@
         </div>
         <ul class="hidden sm:flex">
             <li>
-                <button id="watches"
-                        class="text-[#BABABA] hover:text-[#404040] items-center link link-underline link-underline-black">
+                <button
+                    class="watches text-[#BABABA] hover:text-[#404040] items-center link link-underline link-underline-black">
                     Watches
                 </button>
             </li>
             <p class="px-1 text-[#BABABA]">—</p>
             <li>
-                <button id="straps"
-                        class="text-[#BABABA] hover:text-[#404040] items-center link link-underline link-underline-black'}}">
+                <button
+                    class="straps text-[#BABABA] hover:text-[#404040] items-center link link-underline link-underline-black'}}">
                     Straps
                 </button>
             </li>
@@ -44,16 +44,7 @@
                      stroke="currentColor" class="w-10 h-10 hover:scale-110 transition cursor-pointer">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 12h16.5M12 17.25h8.25"/>
                 </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" id="cross"
-                     stroke="currentColor" class="w-10 h-10 hidden hover:scale-110 transition cursor-pointer">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
-                </svg>
-
-
             </div>
         </ul>
     </div>
 </nav>
-<section class="w-full h-screen flex fixed flex-col hidden" id="menu_hero">
-a
-</section>

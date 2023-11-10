@@ -16,6 +16,7 @@ use App\Http\Controllers\HomeController;
 |
 */
 Route::get('/', [HomeController::class, 'index']);
+Route::get('/menu', [HomeController::class, 'menu']);
 
 Route::get('/watches', function () {
     return view('watches');
