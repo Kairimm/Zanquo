@@ -1,5 +1,5 @@
 <nav id="nav-main"
-     class="fixed top-0 left-0 flex h-[5rem] w-full lg:px-16 md:px-8 px-4 justify-between nav-bar transition bg-[#f4f4f4] z-10">
+     class="fixed top-0 left-0 flex h-[5rem] w-full lg:px-16 md:px-8 px-4 justify-between nav-bar transition bg-[#f4f4f4] z-50">
     <div class="flex items-center w-[50%] lg:w-[32%] justify-between">
         <div class="h-[30%]">
             <img src="{{ asset('images/logo_png_zanquo.png') }}" alt="Logo" class="h-[100%] cursor-pointer"
