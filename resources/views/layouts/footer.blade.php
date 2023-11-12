@@ -9,12 +9,12 @@
         </div>
         <div id="sitemap" class="col-start-2 sm:col-start-2 col-span-2 sm:col-span-1 flex flex-col gap-0.5 flex-wrap mt-auto">
             <h1 class="text-white font-bold mb-5">Sitemap —</h1>
-            <a href="/" class="text-[#808080] font-bold hover:text-[#d9d9d9] transition-colors">Start page</a>
-            <a href="{{ route('watches') }}" class="text-[#808080] font-bold hover:text-[#d9d9d9] transition-colors">Shop
+            <a href="/" class="text-[#808080] font-bold hover:text-[#d9d9d9] transition-colors w-fit">Start page</a>
+            <a href="{{ route('watches') }}" class="text-[#808080] font-bold hover:text-[#d9d9d9] transition-colors w-fit">Shop
                 watches</a>
-            <a href="{{ route('straps') }}" class="text-[#808080] font-bold hover:text-[#d9d9d9] transition-colors">Shop
+            <a href="{{ route('straps') }}" class="text-[#808080] font-bold hover:text-[#d9d9d9] transition-colors w-fit">Shop
                 straps</a>
-            <a href="#" class="text-[#808080] font-bold hover:text-[#d9d9d9] transition-colors">Materials</a>
+            <a href="#" class="text-[#808080] font-bold hover:text-[#d9d9d9] transition-colors w-fit">Materials</a>
         </div>
         <div id="payments" class="col-start-2 sm:col-start-2 col-span-2 sm:col-span-1 row-start-3 flex items-center gap-1.5 mb-5">
             <a href="https://www.mastercard.com/europe/en/home.html" class="w-[3rem] h-[2rem]" target="_blank">
@@ -32,15 +32,15 @@
         </div>
         <div id="information" class="hidden col-start-3 row-start-1 sm:flex sm:flex-col gap-0.5 sm:flex-wrap mt-auto">
             <h1 class="text-white font-bold mb-5">Information —</h1>
-            <a href="#" class="text-[#808080] font-bold hover:text-[#d9d9d9] transition-colors">Terms & conditions</a>
-            <a href="#" class="text-[#808080] font-bold hover:text-[#d9d9d9] transition-colors">Shipping information</a>
-            <a href="#" class="text-[#808080] font-bold hover:text-[#d9d9d9] transition-colors">Contact & support</a>
-            <a href="#" class="text-[#808080] font-bold hover:text-[#d9d9d9] transition-colors"><span class="font-bold text-white">Sign up</span> — Newsletter</a>
+            <a href="/" class="text-[#808080] font-bold hover:text-[#d9d9d9] transition-colors w-fit">Terms & conditions</a>
+            <a href="/" class="text-[#808080] font-bold hover:text-[#d9d9d9] transition-colors w-fit">Shipping information</a>
+            <a href="/" class="text-[#808080] font-bold hover:text-[#d9d9d9] transition-colors w-fit">Contact & support</a>
+            <a href="/" class="text-[#808080] font-bold hover:text-[#d9d9d9] transition-colors w-fit"><span class="font-bold text-white">Sign up</span> — Newsletter</a>
         </div>
         <div id="media" class="hidden sm:flex col-start-3 row-start-3 mb-5 sm:flex-col">
-            <a href="#" class="text-[#808080] font-bold hover:text-[#d9d9d9] transition-colors">Follow us on <span class="font-bold text-white">Instagram</span></a>
-            <a href="#" class="text-[#808080] font-bold hover:text-[#d9d9d9] transition-colors">Follow us on <span class="font-bold text-white">Facebook</span></a>
-            <a href="#" class="text-[#808080] font-bold hover:text-[#d9d9d9] transition-colors">Follow us on <span class="font-bold text-white">Twitter</span></a>
+            <a href="/" class="text-[#808080] font-bold hover:text-[#d9d9d9] transition-colors w-fit">Follow us on <span class="font-bold text-white">Instagram</span></a>
+            <a href="/" class="text-[#808080] font-bold hover:text-[#d9d9d9] transition-colors w-fit">Follow us on <span class="font-bold text-white">Facebook</span></a>
+            <a href="/" class="text-[#808080] font-bold hover:text-[#d9d9d9] transition-colors w-fit">Follow us on <span class="font-bold text-white">Twitter</span></a>
         </div>
     </div>
 </section>
