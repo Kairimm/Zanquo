@@ -25,9 +25,9 @@
             <main id="slot">
                 {{ $slot }}
             </main>
-            <footer>
-                @include('layouts.footer')
-            </footer>
+{{--            <footer>--}}
+{{--                @include('layouts.footer')--}}
+{{--            </footer>--}}
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
