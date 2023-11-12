@@ -22,16 +22,12 @@
             @include('layouts.navigation')
         </header>
     @endif
-        <div class="min-h-screen" id="main">
             <main id="slot">
                 {{ $slot }}
             </main>
-            <main id="menu" class="hidden">
-                <section class="grid grid-cols-2 w-screen h-screen">
-                    <img class="col-start-2 h-full w-full object-cover hidden sm:block" src="{{ asset('images/watch_header_1.png') }}" alt="">
-                </section>
-            </main>
-        </div>
+            <footer>
+                @include('layouts.footer')
+            </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
