@@ -46,8 +46,13 @@ document.querySelector('.straps').addEventListener('click', function () {
     console.log(sessionStorage.getItem('product_type'));
 });
 
+document.querySelector('#return').addEventListener('click', function (ev) {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
 const initialProductType = sessionStorage.getItem('product_type');
 if (initialProductType) {
     updateButtonStyles(initialProductType);
 }
+
 

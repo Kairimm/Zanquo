@@ -15,7 +15,7 @@
         </div>
     </section>
     <section id="featured" class="w-full h-full bg-[#eaeaea]">
-        <h1 class="font-bold text-5xl pt-[8rem] flex justify-center items-center">Featured Watches</h1>
+        <h1 class="font-bold text-3xl sm:text-5xl transition-all pt-[8rem] flex justify-center items-center">Featured Watches</h1>
         <div class="flex flex-wrap w-[90%] h-[60%] mx-auto justify-around mt-[7%] pb-[10rem] gap-y-8">
             <div class="flex flex-col w-[25rem] h-[90%] rounded-2xl transition-all group justify-center hover:cursor-pointer hover:scale-105 hover:bg-[#e0e0e0]">
                 <img src="{{ asset('images/watches/zq1.png') }}" alt="zq1" class="mt-5 w-[95%] h-[60%] object-scale-down mx-auto">
