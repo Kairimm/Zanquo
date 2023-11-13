@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductTypeController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\WatchController;
+use App\Http\Controllers\StrapController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,9 +22,7 @@ Route::get('/menu', [HomeController::class, 'menu']);
 
 Route::get('/watches', [WatchController::class, 'index'])->name('watches');
 
-Route::get('/straps', function () {
-    return view('straps');
-})->name('straps');
+Route::get('/straps', [StrapController::class, 'index'])->name('straps');
 
 Route::get('/cart')->name('cart');
 
